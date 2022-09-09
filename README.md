@@ -37,3 +37,36 @@ const solution = (number) => {
 </details>
 
 ---
+
+
+## 2. Sum of an array
+
+Take an array of integer data type of size 10 And pritn the sum of those 10 integers.
+
+
+```js
+const solution = (array) => {
+  //Write Your solution Here
+};
+
+console.log(solution([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])); // 55
+console.log(solution([22, 11, 55, 66, 77, 88, 99, 44, 33, 10 ])); // 505
+console.log(solution([12, 12, 65, 36, 87, 18, 79, 14, 73, 70 ])); // 466
+```
+
+<details><summary style="cursor:pointer">Solution</summary>
+
+```js
+
+const solution = (array) =>{
+    let sum = 0;
+    for(let i = 0; i < array.length; i++){
+        sum += array[i];
+    }
+    return sum;
+};
+```
+
+</details>
+
+---
