@@ -71,3 +71,40 @@ const solution = (array) =>{
 
 ---
 **[⬆ Back to Top](#header)**
+
+
+## 3. Even or Odd
+
+Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+```js
+const evenOrOdd = (array) => {
+  //Write Your solution Here
+};
+
+console.log(evenOrOdd(0)); // 'Even'
+console.log(evenOrOdd(2)); // 'Even'
+console.log(evenOrOdd(3)); // 'Odd'
+console.log(evenOrOdd(-3)); // 'Odd'
+```
+
+<details><summary style="cursor:pointer">Solution</summary>
+
+```js
+//Solution 1
+const evenOrOdd = number => number % 2 === 0 ? 'Even' : 'Odd';
+
+//Solution 2
+const evenOrOdd = (number) =>{
+    if(number % 2 === 0){
+        return 'Even';
+    }else{
+        return 'Odd';
+    }
+}
+```
+
+</details>
+
+---
+**[⬆ Back to Top](#header)**
