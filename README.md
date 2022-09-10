@@ -1,6 +1,6 @@
 ![javascript](images/logo.png)
 
-<h1 align="center">JavaScript Coding Challenges </h1>
+<h1 align="center" id='header'>JavaScript Coding Challenges </h1>
 
 ## 1. Multiples of 3 or 5
 
@@ -37,7 +37,7 @@ const solution = (number) => {
 </details>
 
 ---
-**[⬆ Back to Top](JavaScript-Coding-Challenges)**
+**[⬆ Back to Top](#header)**
 
 ## 2. Sum of an array
 
@@ -70,4 +70,4 @@ const solution = (array) =>{
 </details>
 
 ---
-**[⬆ Back to Top](JavaScript-Coding-Challenges)**
+**[⬆ Back to Top](#header)**
