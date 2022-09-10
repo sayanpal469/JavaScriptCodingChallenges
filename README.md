@@ -108,3 +108,42 @@ const evenOrOdd = (number) =>{
 
 ---
 **[⬆ Back to Top](#header)**
+
+
+
+
+## 4. Find the biggest integer.
+
+Say you are given the following array of integer data type. Now write a program which will find the biggest integer and print the integer with it's index.
+
+```js
+const solution = (array) => {
+  //Write Your solution Here
+};
+
+console.log(solution([10, 20, 30, 40, 50])); // 50 - 4
+console.log(solution([5, 10, 15, 20, 25, 30])); // 30 - 5
+console.log(solution([44, 665, 221, -434, 643, 123])); // 665 - 1
+console.log(solution([-34, 64, -1, 0, 45])); // 64 - 1
+```
+
+<details><summary style="cursor:pointer">Solution</summary>
+
+```js
+const solution = (array) =>{
+    let biggestNumber = 0;
+    let index 
+    for(let i = 0; i < array.length; i++){
+        if(array[i] > biggestNumber){
+            biggestNumber = array[i];
+            index = i;
+        }
+    }
+    return {biggestNumber, index};
+}
+```
+
+</details>
+
+---
+**[⬆ Back to Top](#header)**
