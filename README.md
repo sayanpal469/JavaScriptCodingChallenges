@@ -37,7 +37,7 @@ const solution = (number) => {
 </details>
 
 ---
-
+**[⬆ Back to Top](JavaScript-Coding-Challenges)**
 
 ## 2. Sum of an array
 
@@ -70,3 +70,4 @@ const solution = (array) =>{
 </details>
 
 ---
+**[⬆ Back to Top](JavaScript-Coding-Challenges)**
