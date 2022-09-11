@@ -155,7 +155,7 @@ const solution = (array) =>{
 
 Write a program to find largest of three given numbers is discussed here. Inpup three integers from the user and find the largest number among them. Given three numbers num1, num2, num3. The task is to find the largest number among the three numbers.
 ```js
-const solution = (array) => {
+const solution = (num1, num2, num3)=> {
   //Write Your solution Here
 };
 
