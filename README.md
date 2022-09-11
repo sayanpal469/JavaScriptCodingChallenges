@@ -147,3 +147,41 @@ const solution = (array) =>{
 
 ---
 **[⬆ Back to Top](#header)**
+
+
+
+
+## 5.  Find the largest number among the three numbers.
+
+Write a program to find largest of three given numbers is discussed here. Inpup three integers from the user and find the largest number among them. Given three numbers num1, num2, num3. The task is to find the largest number among the three numbers.
+```js
+const solution = (array) => {
+  //Write Your solution Here
+};
+
+console.log(solution(10, 20, 30,)); //30
+console.log(solution(100,- 20, 30,)); //100
+console.log(solution(100, 229, 30,)); //229
+```
+
+<details><summary style="cursor:pointer">Solution</summary>
+
+```js
+
+const solution = (num1, num2, num3)=>{
+
+    if(num1 > num2 && num1 > num3){
+        return num1;
+    }
+    else if(num2 > num1 && num2 > num3){
+        return num2;
+    }else{
+        return num3;
+    }
+}
+```
+
+</details>
+
+---
+**[⬆ Back to Top](#header)**
