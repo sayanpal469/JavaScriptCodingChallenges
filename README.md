@@ -78,7 +78,7 @@ const solution = (array) =>{
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
 
 ```js
-const evenOrOdd = (array) => {
+const evenOrOdd = (number) => {
   //Write Your solution Here
 };
 
