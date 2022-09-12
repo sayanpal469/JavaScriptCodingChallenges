@@ -185,3 +185,39 @@ const solution = (num1, num2, num3)=>{
 
 ---
 **[⬆ Back to Top](#header)**
+
+
+
+## 6. Clock
+
+The clock shows h hours (0 <= h <= 23), m minutes (0 <= m <= 59) and s seconds (0 <= s <= 59) after midnight. Your task is to write a function which returns the time since midnight in milliseconds. There are 1,000 milliseconds in a second.
+
+```js
+const solution = (h, m, s)=> {
+  //Write Your solution Here
+};
+
+
+console.log(solution(0, 0, 0)); // 0
+console.log(solution(0, 1, 1)); // 61000
+console.log(solution(1, 0, 0)); // 3600000
+console.log(solution(1, 0, 1)); // 3601000
+console.log(solution(1, 1, 1)); // 3661000
+```
+
+<details><summary>Solution</summary>
+
+```js
+const solution = (h, m, s) =>{
+    if(0<=h <=23 && 0<= m <= 59 && 0 <= s <= 59){
+        return (h * 60 * 60 + m * 60 + s ) * 1000;
+    }
+}
+
+```
+
+</details>
+
+---
+
+**[⬆ Back to Top](#header)**
