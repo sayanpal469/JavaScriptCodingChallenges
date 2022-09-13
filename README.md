@@ -223,7 +223,7 @@ const solution = (h, m, s) =>{
 **[⬆ Back to Top](#header)**
 
 
-## 6. Reverse Word.
+## 7. Reverse Word.
 
 Take word and print the word in reverse order if you take 'BANGLADESH' your program should return or print 'HSEDALGNAB'.
 
