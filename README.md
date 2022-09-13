@@ -221,3 +221,39 @@ const solution = (h, m, s) =>{
 ---
 
 **[⬆ Back to Top](#header)**
+
+
+## 6. Reverse Word.
+
+Take word and print the word in reverse order if you take 'BANGLADESH' your program should return or print 'HSEDALGNAB'.
+
+```js
+const solution = (word)=> {
+  //Write Your solution Here
+};
+
+
+console.log(solution('BANGLADESH')); //HSEDALGNAB
+console.log(solution('PROGRAMMING')); //GNIMMARGORP
+console.log(solution('DEVELOPMENT')); //TNEMPOLEVED
+```
+
+<details><summary>Solution</summary>
+
+```js
+const solution = (word) =>{
+    let reverseWord = '';
+    for(let i= word.length - 1; i >= 0; i--){
+        reverseWord += word[i];
+    }
+
+    return reverseWord;
+}
+
+```
+
+</details>
+
+---
+
+**[⬆ Back to Top](#header)**
