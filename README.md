@@ -259,7 +259,7 @@ const solution = (word) =>{
 **[⬆ Back to Top](#header)**
 
 
-## 8. Vowel and Consonent
+## 8. Vowel and Consonant
 
 Take a small letter alphabet as a functuion peramitter and print whether it is VOWEL or CONSONANT.
 
