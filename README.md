@@ -257,3 +257,44 @@ const solution = (word) =>{
 ---
 
 **[⬆ Back to Top](#header)**
+
+
+## 8. Vowel and Consonent
+
+Take a small letter alphabet as a functuion peramitter and print whether it is VOWEL or CONSONANT.
+
+```js
+const solution = (letter)=> {
+  //Write Your solution Here
+};
+
+
+console.log(solution('a')); // VOWEL
+console.log(solution('u')); // VOWEL
+console.log(solution('k')); // CONSONANT
+```
+
+<details><summary>Solution</summary>
+
+```js
+//Solution 1
+const solution = (letter) => {
+    return letter === 'a' || letter === 'e' ||  letter === 'i' || letter === 'o' || letter === 'u' ? 'VOWEL' :  'CONSONANT';
+}
+
+//Solution 2
+const solution = (letter) =>{
+    if(letter === 'a' || letter === 'e' ||  letter === 'i' || letter === 'o' || letter === 'u'){
+        return 'VOWEL';
+    }else{
+        return 'CONSONANT';
+    }
+}
+
+```
+
+</details>
+
+---
+
+**[⬆ Back to Top](#header)**
