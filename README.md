@@ -298,3 +298,62 @@ const solution = (letter) =>{
 ---
 
 **[⬆ Back to Top](#header)**
+
+
+
+## 9. Find month name.
+
+Write a program that takes an integer as input 1 - 12 and print the corresponding month name. if user gives input 1 you should print 'January'.
+
+```js
+const solution = (integer)=> {
+  //Write Your solution Here
+};
+
+
+console.log(solution(3)); //March
+console.log(solution(7)); //July
+console.log(solution(9)); //September
+```
+
+<details><summary>Solution</summary>
+
+```js
+const solution = (integer) =>{
+
+    switch (integer) {
+        case 1:
+            return 'January';
+        case 2:
+            return 'February';
+        case 3:
+            return 'March';
+        case 4:
+            return 'April';
+        case 5:
+            return 'May';
+        case 6:
+            return 'June';
+        case 7:
+            return 'July';
+        case 8:
+            return 'August';
+        case 9:
+            return 'September';
+        case 10:
+            return 'October';
+        case 11:
+            return 'November';
+        case 12:
+            return 'December';
+        default:
+            return 'No value found'
+    }
+}
+```
+
+</details>
+
+---
+
+**[⬆ Back to Top](#header)**
