@@ -1,6 +1,6 @@
-![javascript](images/logo.png)
+<img src='./images/logo.png'  alt='JavaScript Coding Challenges jahidul islam zim' id='header'/>
 
-<h1 align="center" id='header'>JavaScript Coding Challenges </h1>
+<h1 align="center" >JavaScript Coding Challenges </h1>
 
 ## 1. Multiples of 3 or 5
 
