@@ -347,7 +347,7 @@ const solution = (integer) =>{
         case 12:
             return 'December';
         default:
-            return 'No value found'
+            return 'No value found';
     }
 }
 ```
