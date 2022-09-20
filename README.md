@@ -403,7 +403,7 @@ console.log(solution(7))// Multiplication Table of 7
 **[⬆ Back to Top](#header)**
 
 
-## 11. Century From Year
+## 11. Century From Year.
 
 The first century spans from the year 1 up to and including the year 100, The second - from the year 101 up to and including the year 200, etc. Given a year, return the century it is in.
 
